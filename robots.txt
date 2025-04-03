@@ -1,0 +1,8 @@
+# This file is used to manage how search engines crawl and index your site.
+User -agent: *  # Applies to all web crawlers
+Disallow: /private/  # Disallow access to the /private/ directory
+Disallow: /temp/  # Disallow access to the /temp/ directory
+# Allow all other pages
+Allow: /
+# Sitemap location (if you have a sitemap)
+Sitemap: http://www.yourwebsite.com/sitemap.xml
